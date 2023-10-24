@@ -16,6 +16,7 @@ class AuthorizationRequest {
           'response_type': config.responseType,
           'redirect_uri': config.redirectUri,
           'scope': config.scope,
+          'authorization_user_agent' : 'BROWSER',
         },
         fullScreen = fullScreen,
         clearCookies = clearCookies {
